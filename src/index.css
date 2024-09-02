@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+.square {
+  width: 100px;
+  background-color: #5b5b5b ;
+  height:100px;
+  color: #fff;
+  font-size:  90px;
+  border: 1px solid #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.board {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px; /* karena ingin membuat dalam bentuk kotak 3x3 maka di kali 3 dari square yaitu 300 x 3 = 300*/
+  height: 300px;
+}
